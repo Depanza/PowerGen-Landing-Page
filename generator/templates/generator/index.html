@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGen Solutions - Generator Experts</title>
+    <link rel="stylesheet" href="{% static 'generator/css/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">PowerGen</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Reliable Power Solution Partner</h2>
+                <p>24/7 Generator Sales, Rental & Maintenance Services</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Generator Sales</h3>
+                    <p>High-quality generators for all needs and budgets</p>
+                </div>
+                <div class="service-card">
+                    <h3>Rental Services</h3>
+                    <p>Flexible short-term and long-term rental options</p>
+                </div>
+                <div class="service-card">
+                    <h3>Maintenance</h3>
+                    <p>Professional maintenance and repair services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock emergency services</p>
+                </div>
+                <div class="feature">
+                    <h3>Expert Team</h3>
+                    <p>Certified technicians with 10+ years experience</p>
+                </div>
+                <div class="feature">
+                    <h3>Competitive Pricing</h3>
+                    <p>Affordable solutions without compromising quality</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PowerGen Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
